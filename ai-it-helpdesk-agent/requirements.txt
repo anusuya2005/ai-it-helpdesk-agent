@@ -1,0 +1,6 @@
+# Core web app
+flask>=3.0.0
+
+# Optional: only needed if you want LLM-enhanced (Claude) response synthesis.
+# The agent works fully offline / rule-based without this installed.
+# anthropic>=0.40.0

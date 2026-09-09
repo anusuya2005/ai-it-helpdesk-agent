@@ -1,0 +1,352 @@
+[
+  {
+    "id": "KB001",
+    "category": "Network",
+    "title": "Wi-Fi not connecting",
+    "keywords": ["wifi", "wi-fi", "wireless", "not connecting", "no wifi", "cannot connect wifi", "network unavailable"],
+    "solution": [
+      "Toggle Wi-Fi off and on from the network settings panel.",
+      "Forget the network and reconnect using the correct password.",
+      "Restart the router/access point and wait 60 seconds before reconnecting.",
+      "Update the wireless network adapter driver.",
+      "Run the built-in network troubleshooter."
+    ]
+  },
+  {
+    "id": "KB002",
+    "category": "Network",
+    "title": "VPN connection failing",
+    "keywords": ["vpn", "vpn not connecting", "vpn failed", "remote access", "cannot connect vpn"],
+    "solution": [
+      "Verify internet connectivity is working outside the VPN.",
+      "Confirm VPN credentials and that the account is not locked.",
+      "Restart the VPN client application.",
+      "Switch VPN protocol (e.g., from UDP to TCP) in client settings.",
+      "Check if a firewall or antivirus is blocking the VPN port."
+    ]
+  },
+  {
+    "id": "KB003",
+    "category": "Network",
+    "title": "Slow internet speed",
+    "keywords": ["slow internet", "slow network", "buffering", "low speed", "internet lag", "high latency"],
+    "solution": [
+      "Run a speed test to confirm the actual download/upload speed.",
+      "Disconnect unused devices from the network to free bandwidth.",
+      "Connect via Ethernet cable to rule out Wi-Fi interference.",
+      "Clear DNS cache and switch to a public DNS (e.g., 1.1.1.1).",
+      "Restart the modem/router."
+    ]
+  },
+  {
+    "id": "KB004",
+    "category": "Network",
+    "title": "No internet access despite connection",
+    "keywords": ["no internet access", "connected but no internet", "limited connectivity", "dns issue"],
+    "solution": [
+      "Flush DNS cache using ipconfig /flushdns (Windows) or equivalent.",
+      "Renew IP address (ipconfig /release then /renew).",
+      "Set DNS servers manually to a reliable public DNS.",
+      "Restart the network adapter from Device Manager.",
+      "Check if a proxy setting is incorrectly enabled."
+    ]
+  },
+  {
+    "id": "KB005",
+    "category": "Hardware",
+    "title": "Printer not printing",
+    "keywords": ["printer not printing", "print job stuck", "printer offline", "cannot print"],
+    "solution": [
+      "Check the printer is powered on and has paper/toner.",
+      "Clear the print queue and restart the print spooler service.",
+      "Confirm the printer is set as the default device.",
+      "Reinstall or update the printer driver.",
+      "Verify the printer is on the same network as the computer."
+    ]
+  },
+  {
+    "id": "KB006",
+    "category": "Hardware",
+    "title": "Laptop won't turn on",
+    "keywords": ["laptop wont turn on", "laptop not starting", "no power", "dead laptop", "black screen on boot"],
+    "solution": [
+      "Confirm the charger is connected and the LED indicator is lit.",
+      "Hold the power button for 15 seconds to force a hard reset.",
+      "Remove the battery (if removable) and reconnect after 30 seconds.",
+      "Try a different power outlet or charging cable.",
+      "If no response, escalate for hardware inspection."
+    ]
+  },
+  {
+    "id": "KB007",
+    "category": "Hardware",
+    "title": "Battery draining fast",
+    "keywords": ["battery draining", "battery drains fast", "poor battery life", "battery not lasting"],
+    "solution": [
+      "Check Task Manager/Activity Monitor for high battery-consuming apps.",
+      "Lower screen brightness and disable keyboard backlight.",
+      "Turn off Wi-Fi/Bluetooth when not in use.",
+      "Run the built-in battery health/report tool.",
+      "Update the BIOS and power management drivers."
+    ]
+  },
+  {
+    "id": "KB008",
+    "category": "Hardware",
+    "title": "External monitor not detected",
+    "keywords": ["monitor not detected", "external display not working", "second monitor not showing", "no signal monitor"],
+    "solution": [
+      "Check the video cable (HDMI/DisplayPort) is firmly connected on both ends.",
+      "Press Windows+P (or equivalent display shortcut) and select the correct display mode.",
+      "Update the graphics card driver.",
+      "Try a different cable or port to rule out a hardware fault.",
+      "Restart the computer with the monitor already connected."
+    ]
+  },
+  {
+    "id": "KB009",
+    "category": "Hardware",
+    "title": "Keyboard not working",
+    "keywords": ["keyboard not working", "keys not responding", "keyboard unresponsive"],
+    "solution": [
+      "Check for physical debris under the keys and clean gently.",
+      "Reconnect or re-pair the keyboard (for wireless/Bluetooth).",
+      "Update or reinstall the keyboard driver in Device Manager.",
+      "Test the keyboard on another device to isolate the fault.",
+      "Try a different USB port."
+    ]
+  },
+  {
+    "id": "KB010",
+    "category": "Software",
+    "title": "Application keeps crashing",
+    "keywords": ["application crashing", "app crashes", "software crash", "program not responding"],
+    "solution": [
+      "Update the application to the latest version.",
+      "Restart the computer to clear temporary memory conflicts.",
+      "Run the application as administrator.",
+      "Check application logs or Event Viewer for the crash error code.",
+      "Reinstall the application if crashes persist."
+    ]
+  },
+  {
+    "id": "KB011",
+    "category": "Software",
+    "title": "Software update failing",
+    "keywords": ["update failing", "update stuck", "cannot install update", "update error"],
+    "solution": [
+      "Ensure there is enough free disk space for the update.",
+      "Check internet connection stability during download.",
+      "Clear the update cache/temporary files.",
+      "Run the update as administrator.",
+      "Restart the device and retry the update."
+    ]
+  },
+  {
+    "id": "KB012",
+    "category": "Software",
+    "title": "License activation error",
+    "keywords": ["license error", "activation failed", "invalid license key", "license expired"],
+    "solution": [
+      "Verify the license key was entered correctly with no extra spaces.",
+      "Confirm system date and time are set correctly.",
+      "Check if the license has expired or reached the seat limit.",
+      "Deactivate the license on any old device before reactivating.",
+      "Contact the software vendor if the key shows as invalid."
+    ]
+  },
+  {
+    "id": "KB013",
+    "category": "Software",
+    "title": "Installation stuck or fails",
+    "keywords": ["installation stuck", "install fails", "setup not completing", "installer error"],
+    "solution": [
+      "Run the installer as administrator.",
+      "Temporarily disable antivirus during installation.",
+      "Free up disk space and clear temporary installer files.",
+      "Download a fresh copy of the installer in case of file corruption.",
+      "Check compatibility with the current operating system version."
+    ]
+  },
+  {
+    "id": "KB014",
+    "category": "Account",
+    "title": "Forgot password / need reset",
+    "keywords": ["forgot password", "reset password", "password reset", "cannot login password"],
+    "solution": [
+      "Use the 'Forgot Password' link on the login page to receive a reset email.",
+      "Check spam/junk folder for the reset email if not received.",
+      "Ensure the new password meets complexity requirements.",
+      "Clear browser cache/cookies if the reset link fails to load.",
+      "Contact the helpdesk to manually trigger a reset if self-service fails."
+    ]
+  },
+  {
+    "id": "KB015",
+    "category": "Account",
+    "title": "Account locked out",
+    "keywords": ["account locked", "locked out", "too many attempts", "account disabled"],
+    "solution": [
+      "Wait 15-30 minutes as accounts often auto-unlock after a lockout period.",
+      "Verify you are using the correct username/email.",
+      "Check for Caps Lock being accidentally enabled while typing the password.",
+      "Request a manual unlock from IT support with identity verification.",
+      "Review recent login attempts for possible unauthorized access."
+    ]
+  },
+  {
+    "id": "KB016",
+    "category": "Account",
+    "title": "Multi-factor authentication (MFA) not working",
+    "keywords": ["mfa not working", "2fa issue", "authenticator not working", "otp not received"],
+    "solution": [
+      "Confirm the device clock is synced (MFA codes are time-sensitive).",
+      "Try a backup MFA method (SMS, backup codes, email).",
+      "Reinstall the authenticator app if codes are consistently wrong.",
+      "Request MFA reset from IT support with identity verification.",
+      "Check network connectivity if using push notification-based MFA."
+    ]
+  },
+  {
+    "id": "KB017",
+    "category": "Account",
+    "title": "Forgot username",
+    "keywords": ["forgot username", "dont know username", "what is my username"],
+    "solution": [
+      "Use the 'Forgot Username' recovery option with your registered email.",
+      "Check a previous welcome/onboarding email for your assigned username.",
+      "Contact IT support with proof of identity for lookup.",
+      "Check your organization's employee/student directory if available."
+    ]
+  },
+  {
+    "id": "KB018",
+    "category": "Email",
+    "title": "Outlook not syncing",
+    "keywords": ["outlook not syncing", "email not updating", "mail not syncing"],
+    "solution": [
+      "Check internet connection and mail server status.",
+      "Toggle 'Work Offline' mode off if accidentally enabled.",
+      "Repair the Outlook profile via Control Panel > Mail.",
+      "Verify mailbox storage isn't full.",
+      "Recreate the email profile if sync issues persist."
+    ]
+  },
+  {
+    "id": "KB019",
+    "category": "Email",
+    "title": "Cannot send email",
+    "keywords": ["cannot send email", "email stuck outbox", "email not sending", "send error"],
+    "solution": [
+      "Check the message isn't exceeding the attachment size limit.",
+      "Confirm outgoing (SMTP) server settings are correct.",
+      "Check if the recipient address is valid and correctly formatted.",
+      "Clear the Outbox and resend the message.",
+      "Verify the account isn't flagged for suspicious sending activity."
+    ]
+  },
+  {
+    "id": "KB020",
+    "category": "Email",
+    "title": "Mailbox full warning",
+    "keywords": ["mailbox full", "storage limit email", "quota exceeded email"],
+    "solution": [
+      "Delete large attachments or old emails from Inbox and Sent Items.",
+      "Empty the Deleted Items/Trash folder.",
+      "Archive old emails to local/PST storage.",
+      "Request a mailbox quota increase from IT if genuinely needed.",
+      "Set up auto-archiving rules for future prevention."
+    ]
+  },
+  {
+    "id": "KB021",
+    "category": "Security",
+    "title": "Suspicious phishing email received",
+    "keywords": ["phishing email", "suspicious email", "scam email", "spoofed email"],
+    "solution": [
+      "Do not click any links or download attachments in the email.",
+      "Report the email using the 'Report Phishing' button if available.",
+      "Forward the email to the security team for analysis.",
+      "Delete the email after reporting.",
+      "Do not reply to or unsubscribe from suspicious senders."
+    ]
+  },
+  {
+    "id": "KB022",
+    "category": "Security",
+    "title": "Suspicious login alert",
+    "keywords": ["suspicious login", "unauthorized login", "unknown device login", "account compromised"],
+    "solution": [
+      "Change your password immediately from a trusted device.",
+      "Review active sessions and sign out of unfamiliar devices.",
+      "Enable multi-factor authentication if not already active.",
+      "Check account recovery info (email/phone) hasn't been altered.",
+      "Report the incident to the security team immediately."
+    ]
+  },
+  {
+    "id": "KB023",
+    "category": "Security",
+    "title": "Antivirus not updating",
+    "keywords": ["antivirus not updating", "antivirus outdated", "definitions not updating"],
+    "solution": [
+      "Check internet connectivity for the antivirus update service.",
+      "Manually trigger an update from the antivirus dashboard.",
+      "Restart the antivirus service or the computer.",
+      "Verify the antivirus subscription/license hasn't expired.",
+      "Reinstall the antivirus client if updates repeatedly fail."
+    ]
+  },
+  {
+    "id": "KB024",
+    "category": "Performance",
+    "title": "Computer running slow",
+    "keywords": ["computer slow", "system slow", "laptop lagging", "pc running slow"],
+    "solution": [
+      "Check Task Manager for high CPU/memory/disk usage processes.",
+      "Disable unnecessary startup applications.",
+      "Free up disk space by clearing temporary files.",
+      "Run a malware scan to rule out background infections.",
+      "Consider a RAM or storage (SSD) upgrade if hardware is outdated."
+    ]
+  },
+  {
+    "id": "KB025",
+    "category": "Performance",
+    "title": "Disk space full warning",
+    "keywords": ["disk full", "low disk space", "storage full", "no space left"],
+    "solution": [
+      "Run Disk Cleanup to remove temporary and system files.",
+      "Uninstall unused applications.",
+      "Move large files to external/cloud storage.",
+      "Empty the Recycle Bin/Trash.",
+      "Check for large hidden log or cache files consuming space."
+    ]
+  },
+  {
+    "id": "KB026",
+    "category": "OS",
+    "title": "Windows update stuck",
+    "keywords": ["windows update stuck", "update stuck at percent", "update not progressing"],
+    "solution": [
+      "Wait at least 30-60 minutes as some updates are slow.",
+      "Restart the computer if truly frozen for over an hour.",
+      "Run the Windows Update Troubleshooter.",
+      "Clear the Software Distribution cache folder.",
+      "Manually download the update from the Microsoft Update Catalog."
+    ]
+  },
+  {
+    "id": "KB027",
+    "category": "OS",
+    "title": "System won't boot / blue screen",
+    "keywords": ["blue screen", "bsod", "wont boot", "boot loop", "system crash on startup"],
+    "solution": [
+      "Note the stop code shown on the blue screen for diagnosis.",
+      "Boot into Safe Mode to isolate a driver/software conflict.",
+      "Run System Restore to a previous stable point.",
+      "Check for recently installed drivers or updates to roll back.",
+      "Escalate for hardware diagnostics if the issue persists after Safe Mode."
+    ]
+  }
+]

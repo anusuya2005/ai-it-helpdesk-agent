@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI IT Helpdesk Agent</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <span class="brand-icon">🛠️</span>
+        <div>
+          <h1>AI IT Helpdesk Agent</h1>
+          <p class="tagline">Agent&nbsp;+&nbsp;RAG&nbsp;+&nbsp;Tools&nbsp;+&nbsp;Memory</p>
+        </div>
+      </div>
+      <span class="status-pill" id="status-pill">● online</span>
+    </header>
+
+    <main class="chat-window" id="chat-window">
+      <div class="message assistant">
+        <div class="bubble">
+          Hi! I'm your AI IT Helpdesk Assistant. Tell me what's going wrong
+          &mdash; e.g. <em>"my wifi keeps disconnecting"</em> or
+          <em>"printer won't print"</em> &mdash; and I'll diagnose it and
+          suggest fixes.
+        </div>
+      </div>
+    </main>
+
+    <form class="composer" id="composer">
+      <input
+        type="text"
+        id="message-input"
+        placeholder="Describe your IT issue..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
